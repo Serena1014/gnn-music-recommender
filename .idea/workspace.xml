@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gnn-music-recommender.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/01_data_exploration.ipynb" afterDir="false" />
+    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="Data exploration">
+      <change afterPath="$PROJECT_DIR$/notebooks/02_hybrid_sampling_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +62,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1750452934555</updated>
-      <workItem from="1750452935611" duration="8382000" />
+      <workItem from="1750452935611" duration="26818000" />
     </task>
+    <task id="LOCAL-00001" summary="Data exploration">
+      <option name="closed" value="true" />
+      <created>1750623814739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750623814739</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Data exploration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data exploration" />
   </component>
 </project>
