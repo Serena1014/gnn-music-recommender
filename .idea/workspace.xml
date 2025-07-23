@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="baseline model(MF)-jupyter">
-      <change afterPath="$PROJECT_DIR$/notebooks/06_lightgcn_exp1.ipynb" afterDir="false" />
+    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="experiment 1">
+      <change afterPath="$PROJECT_DIR$/notebooks/07_lightgcn_exp2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/06_lightgcn_exp1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/06_lightgcn_exp1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750452934555</updated>
       <workItem from="1750452935611" duration="108222000" />
-      <workItem from="1752537015263" duration="40160000" />
+      <workItem from="1752537015263" duration="70819000" />
     </task>
     <task id="LOCAL-00001" summary="Data exploration">
       <option name="closed" value="true" />
@@ -144,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752015163000</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="experiment 1">
+      <option name="closed" value="true" />
+      <created>1752785450932</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752785450932</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +178,8 @@
     <MESSAGE value="Graph construction-jupyter" />
     <MESSAGE value="Graph construction source code" />
     <MESSAGE value="baseline model(MF)-jupyter" />
-    <option name="LAST_COMMIT_MESSAGE" value="baseline model(MF)-jupyter" />
+    <MESSAGE value="experiment 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="experiment 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gnn_music_recommender$run_graph_construction.coverage" NAME="run_graph_construction Coverage Results" MODIFIED="1751557651851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
