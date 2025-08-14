@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="experiment 2">
-      <change afterPath="$PROJECT_DIR$/notebooks/08_lightgcn_exp3.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/full_experiment.ipynb" afterDir="false" />
+    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="full experiment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/02_hybrid_sampling_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02_hybrid_sampling_analysis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/03_data_preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03_data_preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/04_graph_construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04_graph_construction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/06_lightgcn_exp1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/06_lightgcn_exp1.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/07_lightgcn_exp2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07_lightgcn_exp2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/full_experiment.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/full_experiment.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
       <workItem from="1752537015263" duration="70819000" />
       <workItem from="1753297749070" duration="36696000" />
       <workItem from="1753838355381" duration="2471000" />
-      <workItem from="1753866291453" duration="62366000" />
+      <workItem from="1753866291453" duration="84078000" />
     </task>
     <task id="LOCAL-00001" summary="Data exploration">
       <option name="closed" value="true" />
@@ -169,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753307444693</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="full experiment">
+      <option name="closed" value="true" />
+      <created>1754231503932</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754231503932</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +200,8 @@
     <MESSAGE value="baseline model(MF)-jupyter" />
     <MESSAGE value="experiment 1" />
     <MESSAGE value="experiment 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="experiment 2" />
+    <MESSAGE value="full experiment" />
+    <option name="LAST_COMMIT_MESSAGE" value="full experiment" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gnn_music_recommender$run_graph_construction.coverage" NAME="run_graph_construction Coverage Results" MODIFIED="1751557651851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/script" />
