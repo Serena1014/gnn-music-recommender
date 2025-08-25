@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="Split full experiment into two files">
-      <change afterPath="$PROJECT_DIR$/notebooks/03_data_quality_assessment.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/04_full_experiment.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/02_hybrid_sampling_analysis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02_hybrid_sampling_analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/03_data_preprocessing.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data_preprocessing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/04_graph_construction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/graph_construction.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/05_matrix_factorization_baseline.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/06_lightgcn_exp1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/07_lightgcn_exp2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/08_lightgcn_exp3.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/experiment1&amp;2.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/experiment3.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="f292c383-8763-4f55-a5b9-9e18462d8e34" name="Changes" comment="All final code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +90,7 @@
       <workItem from="1752537015263" duration="70819000" />
       <workItem from="1753297749070" duration="36696000" />
       <workItem from="1753838355381" duration="2471000" />
-      <workItem from="1753866291453" duration="160892000" />
+      <workItem from="1753866291453" duration="161209000" />
     </task>
     <task id="LOCAL-00001" summary="Data exploration">
       <option name="closed" value="true" />
@@ -193,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755187256870</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="All final code">
+      <option name="closed" value="true" />
+      <created>1756142232035</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756142232035</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +217,8 @@
     <MESSAGE value="experiment 2" />
     <MESSAGE value="full experiment" />
     <MESSAGE value="Split full experiment into two files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Split full experiment into two files" />
+    <MESSAGE value="All final code" />
+    <option name="LAST_COMMIT_MESSAGE" value="All final code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
