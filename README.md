@@ -1,6 +1,6 @@
-# GNN Music Recommender System
+# Graph Neural Networks for Recommender Systems
 
-**A Extended Research Project Report submitted to the University of Manchester for the degree of MSc Data Science in the Faculty of Humanities**
+**An Extended Research Project Report submitted to the University of Manchester for the degree of MSc Data Science in the Faculty of Humanities**
 
 ## Project Overview
 
