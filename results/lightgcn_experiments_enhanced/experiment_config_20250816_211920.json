@@ -1,0 +1,153 @@
+{
+  "timestamp": "20250816_211920",
+  "configurations": {
+    "baseline": {
+      "name": "Baseline",
+      "description": "Playlist-track edges only",
+      "edge_types": [
+        "playlist_track"
+      ],
+      "use_features": false,
+      "feature_types": [],
+      "use_playlist_features": false,
+      "use_track_features": false,
+      "use_user_features": false
+    },
+    "with_artists": {
+      "name": "With Artists",
+      "description": "Add track-artist relationships",
+      "edge_types": [
+        "playlist_track",
+        "track_artist"
+      ],
+      "use_features": false,
+      "feature_types": [],
+      "use_playlist_features": false,
+      "use_track_features": false,
+      "use_user_features": false
+    },
+    "with_users": {
+      "name": "With Users",
+      "description": "Add user-playlist relationships",
+      "edge_types": [
+        "playlist_track",
+        "user_playlist"
+      ],
+      "use_features": false,
+      "feature_types": [],
+      "use_playlist_features": false,
+      "use_track_features": false,
+      "use_user_features": false
+    },
+    "full_graph": {
+      "name": "Full Graph",
+      "description": "All edge types",
+      "edge_types": [
+        "playlist_track",
+        "track_artist",
+        "user_playlist",
+        "track_album"
+      ],
+      "use_features": false,
+      "feature_types": [],
+      "use_playlist_features": false,
+      "use_track_features": false,
+      "use_user_features": false
+    },
+    "playlist_features": {
+      "name": "Playlist Features",
+      "description": "Only playlist features (6D) on baseline graph",
+      "edge_types": [
+        "playlist_track"
+      ],
+      "use_features": true,
+      "feature_types": [
+        "playlist"
+      ],
+      "use_playlist_features": true,
+      "use_track_features": false,
+      "use_user_features": false
+    },
+    "track_features": {
+      "name": "Track Features",
+      "description": "Only track features (4D) on baseline graph",
+      "edge_types": [
+        "playlist_track"
+      ],
+      "use_features": true,
+      "feature_types": [
+        "track"
+      ],
+      "use_playlist_features": false,
+      "use_track_features": true,
+      "use_user_features": false
+    },
+    "user_features": {
+      "name": "User Features",
+      "description": "Only user features (4D) on baseline graph",
+      "edge_types": [
+        "playlist_track"
+      ],
+      "use_features": true,
+      "feature_types": [
+        "user"
+      ],
+      "use_playlist_features": false,
+      "use_track_features": false,
+      "use_user_features": true
+    },
+    "all_features": {
+      "name": "All Features",
+      "description": "All feature types combined on baseline graph",
+      "edge_types": [
+        "playlist_track"
+      ],
+      "use_features": true,
+      "feature_types": [
+        "playlist",
+        "track",
+        "user"
+      ],
+      "use_playlist_features": true,
+      "use_track_features": true,
+      "use_user_features": true
+    }
+  },
+  "settings": {
+    "random_seeds": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "target_playlists": 1500,
+    "embedding_dim": 128,
+    "n_layers": 2,
+    "learning_rate": 0.0005,
+    "epochs": 200,
+    "batch_size": 256,
+    "k_values": [
+      5,
+      10,
+      20
+    ]
+  },
+  "dataset_info": {
+    "entity_counts": {
+      "playlists": 299,
+      "tracks": 10631,
+      "artists": 4164,
+      "albums": 6966,
+      "users": 252
+    },
+    "node_offsets": {
+      "playlists": 0,
+      "tracks": 299,
+      "artists": 10930,
+      "albums": 15094,
+      "users": 22060
+    },
+    "total_nodes": 22312
+  }
+}

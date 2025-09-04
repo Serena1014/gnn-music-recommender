@@ -1,0 +1,177 @@
+{
+  "phase3_timestamp": "20250817_163132",
+  "optimal_configuration": {
+    "name": "Dynamic Best Combined",
+    "description": "Empirically determined best configuration based on statistical criteria from combined results",
+    "edge_types": [
+      "playlist_track"
+    ],
+    "use_features": false,
+    "feature_types": [],
+    "use_playlist_features": false,
+    "use_track_features": false,
+    "use_user_features": false
+  },
+  "selection_analysis": {
+    "methodology": {
+      "significance_threshold": 0.05,
+      "effect_size_threshold": 0.2,
+      "improvement_threshold": 5.0,
+      "approach": "Conservative, evidence-based selection from combined results"
+    },
+    "data_source": {
+      "combined_results": true,
+      "phase1_configs": [
+        "baseline",
+        "with_artists",
+        "with_users",
+        "full_graph"
+      ],
+      "phase2_configs": [
+        "playlist_features",
+        "track_features",
+        "user_features",
+        "all_features"
+      ],
+      "separation_method": "Automatic based on configuration characteristics"
+    },
+    "edge_selection": {
+      "ranked_configs": [
+        [
+          "baseline",
+          0.5229015620920618
+        ],
+        [
+          "with_users",
+          0.5093325144296444
+        ],
+        [
+          "with_artists",
+          0.40194921644858017
+        ],
+        [
+          "full_graph",
+          0.33901733510107707
+        ]
+      ],
+      "selected_config": "baseline",
+      "performance": 0.5229015620920618,
+      "edge_types": [
+        "playlist_track"
+      ],
+      "decision": "Baseline was best performing"
+    },
+    "feature_selection": {
+      "baseline_performance": 0.5229015620920618,
+      "feature_analysis": {
+        "playlist_features": {
+          "mean_ndcg": 0.5374642056603425,
+          "improvement_pct": 2.784968457546267,
+          "ndcg_values": [
+            0.5265388614430409,
+            0.5314227192075295,
+            0.5456313921499909,
+            0.5335767472966617,
+            0.5501513082044897
+          ],
+          "feature_types": [
+            "playlist"
+          ]
+        },
+        "track_features": {
+          "mean_ndcg": 0.4417612395505797,
+          "improvement_pct": -15.517322651867808,
+          "ndcg_values": [
+            0.42724994040944836,
+            0.44018673272452996,
+            0.4455315205271483,
+            0.4511790269565181,
+            0.44465897713525404
+          ],
+          "feature_types": [
+            "track"
+          ]
+        },
+        "user_features": {
+          "mean_ndcg": 0.5210498973457511,
+          "improvement_pct": -0.354113447070695,
+          "ndcg_values": [
+            0.5082567717482774,
+            0.5123914394814544,
+            0.5217335953079418,
+            0.5240961250327875,
+            0.5387715551582944
+          ],
+          "feature_types": [
+            "user"
+          ]
+        },
+        "all_features": {
+          "mean_ndcg": 0.42430641822888226,
+          "improvement_pct": -18.855392871406444,
+          "ndcg_values": [
+            0.4143687621972302,
+            0.42534540447223085,
+            0.4345694248732816,
+            0.4197076105281309,
+            0.4275408890735381
+          ],
+          "feature_types": [
+            "playlist",
+            "track",
+            "user"
+          ]
+        }
+      },
+      "best_config": "playlist_features",
+      "best_improvement": 2.784968457546267,
+      "threshold": 5.0,
+      "decision": "Improvement 2.8% < 5.0% threshold",
+      "use_features": false,
+      "selected_feature_types": []
+    },
+    "final_configuration": {
+      "name": "Dynamic Best Combined",
+      "description": "Empirically determined best configuration based on statistical criteria from combined results",
+      "edge_types": [
+        "playlist_track"
+      ],
+      "use_features": false,
+      "feature_types": [],
+      "use_playlist_features": false,
+      "use_track_features": false,
+      "use_user_features": false
+    },
+    "timestamp": "20250817_163132"
+  },
+  "methodology": {
+    "approach": "Empirical, performance-driven configuration selection from combined results",
+    "statistical_criteria": {
+      "significance_testing": "p < 0.05",
+      "effect_size_analysis": "Cohen's d > 0.2",
+      "improvement_threshold": ">5% for feature justification"
+    },
+    "ranking_method": "Mean NDCG@10 performance across multiple random seeds",
+    "conservative_approach": "Evidence-based selection with fallback to baseline"
+  },
+  "experiment_settings": {
+    "random_seeds": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "evaluation_metrics": [
+      5,
+      10,
+      20
+    ],
+    "training_parameters": {
+      "epochs": 200,
+      "learning_rate": 0.0005,
+      "embedding_dim": 128,
+      "n_layers": 2
+    }
+  }
+}

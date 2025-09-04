@@ -1,0 +1,25 @@
+================================================================================
+LIGHTGCN EXPERIMENT SUMMARY REPORT
+================================================================================
+Generated: 2025-08-17 17:24:21
+Timestamp: 20250817_163132
+
+EXPERIMENT OVERVIEW:
+--------------------------------------------------
+Total configurations tested: 1
+Best configuration: phase3_optimal_combined
+Best NDCG@10: 0.5229
+
+CONFIGURATION RESULTS:
+--------------------------------------------------
+Configuration             NDCG@10         AUC             Time(s)   
+-----------------------------------------------------------------
+phase3_optimal_combined   0.5229          0.7722          633.0     
+
+FILES GENERATED:
+--------------------------------------------------
+- Complete results: complete_results_20250817_163132.json/.pkl
+- Analysis results: analysis_results_20250817_163132.json
+- Individual config results: ../results/lightgcn_phase3_optimal_combined/metrics/
+- Training logs: ../results/lightgcn_phase3_optimal_combined/logs/
+- Model checkpoints: ../results/lightgcn_phase3_optimal_combined/models/

@@ -1,0 +1,32 @@
+================================================================================
+LIGHTGCN EXPERIMENT SUMMARY REPORT
+================================================================================
+Generated: 2025-08-17 15:28:30
+Timestamp: 20250816_211920
+
+EXPERIMENT OVERVIEW:
+--------------------------------------------------
+Total configurations tested: 8
+Best configuration: playlist_features
+Best NDCG@10: 0.5375
+
+CONFIGURATION RESULTS:
+--------------------------------------------------
+Configuration             NDCG@10         AUC             Time(s)   
+-----------------------------------------------------------------
+baseline                  0.5229          0.7722          1159.3    
+with_artists              0.4019          0.6688          1127.4    
+with_users                0.5093          0.7625          1163.8    
+full_graph                0.3390          0.6206          1492.8    
+playlist_features         0.5375          0.8005          1526.3    
+track_features            0.4418          0.7049          2037.1    
+user_features             0.5210          0.7716          1941.5    
+all_features              0.4243          0.6996          2615.7    
+
+FILES GENERATED:
+--------------------------------------------------
+- Complete results: complete_results_20250816_211920.json/.pkl
+- Analysis results: analysis_results_20250816_211920.json
+- Individual config results: ../results/lightgcn_experiments_enhanced/metrics/
+- Training logs: ../results/lightgcn_experiments_enhanced/logs/
+- Model checkpoints: ../results/lightgcn_experiments_enhanced/models/

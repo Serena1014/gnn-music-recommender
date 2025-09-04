@@ -1,0 +1,602 @@
+{
+  "timestamp": "20250816_211920",
+  "pairwise_comparisons": [
+    {
+      "config1": "baseline",
+      "config2": "with_artists",
+      "config1_mean": 0.5229015620920618,
+      "config2_mean": 0.40194921644858017,
+      "p_value": 9.67414234951308e-09,
+      "cohens_d": 15.180471405752414,
+      "t_statistic": 24.002432798617868,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "baseline",
+      "config2": "with_users",
+      "config1_mean": 0.5229015620920618,
+      "config2_mean": 0.5093325144296444,
+      "p_value": 0.0723417500332193,
+      "cohens_d": 1.3085485390563427,
+      "t_statistic": 2.0689969061519213,
+      "significance": "n.s.",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "baseline",
+      "config2": "full_graph",
+      "config1_mean": 0.5229015620920618,
+      "config2_mean": 0.33901733510107707,
+      "p_value": 5.213707683124291e-10,
+      "cohens_d": 21.940372298086345,
+      "t_statistic": 34.69077458700781,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "baseline",
+      "config2": "playlist_features",
+      "config1_mean": 0.5229015620920618,
+      "config2_mean": 0.5374642056603425,
+      "p_value": 0.055513550402744735,
+      "cohens_d": 1.41605658211792,
+      "t_statistic": -2.2389820475829443,
+      "significance": "n.s.",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "baseline",
+      "config2": "track_features",
+      "config1_mean": 0.5229015620920618,
+      "config2_mean": 0.4417612395505797,
+      "p_value": 1.1208494344376188e-06,
+      "cohens_d": 8.260944800978546,
+      "t_statistic": 13.061700598009287,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "baseline",
+      "config2": "user_features",
+      "config1_mean": 0.5229015620920618,
+      "config2_mean": 0.5210498973457511,
+      "p_value": 0.8009969280008128,
+      "cohens_d": 0.16480642703923745,
+      "t_statistic": 0.26058184123917527,
+      "significance": "n.s.",
+      "effect_size_interpretation": "small"
+    },
+    {
+      "config1": "baseline",
+      "config2": "all_features",
+      "config1_mean": 0.5229015620920618,
+      "config2_mean": 0.42430641822888226,
+      "p_value": 1.5545210180113414e-07,
+      "cohens_d": 10.661179256756295,
+      "t_statistic": 16.85680449734548,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_artists",
+      "config2": "with_users",
+      "config1_mean": 0.40194921644858017,
+      "config2_mean": 0.5093325144296444,
+      "p_value": 1.872290246896769e-08,
+      "cohens_d": 13.962177972265229,
+      "t_statistic": -22.076141744494688,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_artists",
+      "config2": "full_graph",
+      "config1_mean": 0.40194921644858017,
+      "config2_mean": 0.33901733510107707,
+      "p_value": 2.5018436207808843e-08,
+      "cohens_d": 13.457872145134004,
+      "t_statistic": 21.27876421897978,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_artists",
+      "config2": "playlist_features",
+      "config1_mean": 0.40194921644858017,
+      "config2_mean": 0.5374642056603425,
+      "p_value": 2.6372942601735194e-09,
+      "cohens_d": 17.88927762372922,
+      "t_statistic": -28.285431493034494,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_artists",
+      "config2": "track_features",
+      "config1_mean": 0.40194921644858017,
+      "config2_mean": 0.4417612395505797,
+      "p_value": 1.741330031967135e-05,
+      "cohens_d": 5.740445593024892,
+      "t_statistic": -9.076441429117319,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_artists",
+      "config2": "user_features",
+      "config1_mean": 0.40194921644858017,
+      "config2_mean": 0.5210498973457511,
+      "p_value": 2.4442072169402283e-08,
+      "cohens_d": 13.497759827903772,
+      "t_statistic": -21.341832183049142,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_artists",
+      "config2": "all_features",
+      "config1_mean": 0.40194921644858017,
+      "config2_mean": 0.42430641822888226,
+      "p_value": 0.0004053142529523902,
+      "cohens_d": 3.6680350644289152,
+      "t_statistic": -5.7996726704789205,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_users",
+      "config2": "full_graph",
+      "config1_mean": 0.5093325144296444,
+      "config2_mean": 0.33901733510107707,
+      "p_value": 7.446322673973087e-10,
+      "cohens_d": 20.97845760153653,
+      "t_statistic": 33.169853909064244,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_users",
+      "config2": "playlist_features",
+      "config1_mean": 0.5093325144296444,
+      "config2_mean": 0.5374642056603425,
+      "p_value": 0.002236653225393197,
+      "cohens_d": 2.793294929492403,
+      "t_statistic": -4.416587076897717,
+      "significance": "**",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_users",
+      "config2": "track_features",
+      "config1_mean": 0.5093325144296444,
+      "config2_mean": 0.4417612395505797,
+      "p_value": 3.7960063568375766e-06,
+      "cohens_d": 7.039307537250086,
+      "t_statistic": 11.130122484050418,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_users",
+      "config2": "user_features",
+      "config1_mean": 0.5093325144296444,
+      "config2_mean": 0.5210498973457511,
+      "p_value": 0.13186462256706374,
+      "cohens_d": 1.0612656410094596,
+      "t_statistic": -1.6780083140342446,
+      "significance": "n.s.",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "with_users",
+      "config2": "all_features",
+      "config1_mean": 0.5093325144296444,
+      "config2_mean": 0.42430641822888226,
+      "p_value": 4.0173358236316734e-07,
+      "cohens_d": 9.43598881298583,
+      "t_statistic": 14.919608312451917,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "full_graph",
+      "config2": "playlist_features",
+      "config1_mean": 0.33901733510107707,
+      "config2_mean": 0.5374642056603425,
+      "p_value": 1.980533094849826e-10,
+      "cohens_d": 24.778126871567398,
+      "t_statistic": -39.17765853338771,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "full_graph",
+      "config2": "track_features",
+      "config1_mean": 0.33901733510107707,
+      "config2_mean": 0.4417612395505797,
+      "p_value": 1.970616987654478e-08,
+      "cohens_d": 13.871814649209949,
+      "t_statistic": -21.93326478559654,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "full_graph",
+      "config2": "user_features",
+      "config1_mean": 0.33901733510107707,
+      "config2_mean": 0.5210498973457511,
+      "p_value": 1.1841023702286824e-09,
+      "cohens_d": 19.78873132733563,
+      "t_statistic": -31.28873149975381,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "full_graph",
+      "config2": "all_features",
+      "config1_mean": 0.33901733510107707,
+      "config2_mean": 0.42430641822888226,
+      "p_value": 3.553534858639943e-08,
+      "cohens_d": 12.870931850824391,
+      "t_statistic": -20.35073012870581,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "playlist_features",
+      "config2": "track_features",
+      "config1_mean": 0.5374642056603425,
+      "config2_mean": 0.4417612395505797,
+      "p_value": 2.430197003371691e-07,
+      "cohens_d": 10.066999097585763,
+      "t_statistic": 15.917323175615342,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "playlist_features",
+      "config2": "user_features",
+      "config1_mean": 0.5374642056603425,
+      "config2_mean": 0.5210498973457511,
+      "p_value": 0.045396906061297704,
+      "cohens_d": 1.4975742102934286,
+      "t_statistic": 2.367872734827606,
+      "significance": "*",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "playlist_features",
+      "config2": "all_features",
+      "config1_mean": 0.5374642056603425,
+      "config2_mean": 0.42430641822888226,
+      "p_value": 3.954788738307053e-08,
+      "cohens_d": 12.696966195675092,
+      "t_statistic": 20.07566627624822,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "track_features",
+      "config2": "user_features",
+      "config1_mean": 0.4417612395505797,
+      "config2_mean": 0.5210498973457511,
+      "p_value": 2.2743437751101004e-06,
+      "cohens_d": 7.5308341284239315,
+      "t_statistic": -11.907294263374302,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "track_features",
+      "config2": "all_features",
+      "config1_mean": 0.4417612395505797,
+      "config2_mean": 0.42430641822888226,
+      "p_value": 0.010935256654505959,
+      "cohens_d": 2.084129662751099,
+      "t_statistic": 3.2952983367060296,
+      "significance": "*",
+      "effect_size_interpretation": "very large"
+    },
+    {
+      "config1": "user_features",
+      "config2": "all_features",
+      "config1_mean": 0.5210498973457511,
+      "config2_mean": 0.42430641822888226,
+      "p_value": 3.297995484449704e-07,
+      "cohens_d": 9.679105781404822,
+      "t_statistic": 15.304009991471533,
+      "significance": "***",
+      "effect_size_interpretation": "very large"
+    }
+  ],
+  "significant_differences": [
+    {
+      "better_config": "baseline",
+      "worse_config": "with_artists",
+      "improvement_percent": 30.09144953985864,
+      "p_value": 9.67414234951308e-09,
+      "effect_size": 15.180471405752414
+    },
+    {
+      "better_config": "baseline",
+      "worse_config": "full_graph",
+      "improvement_percent": 54.24036117095906,
+      "p_value": 5.213707683124291e-10,
+      "effect_size": 21.940372298086345
+    },
+    {
+      "better_config": "baseline",
+      "worse_config": "track_features",
+      "improvement_percent": 18.3674608084741,
+      "p_value": 1.1208494344376188e-06,
+      "effect_size": 8.260944800978546
+    },
+    {
+      "better_config": "baseline",
+      "worse_config": "all_features",
+      "improvement_percent": 23.23677880592292,
+      "p_value": 1.5545210180113414e-07,
+      "effect_size": 10.661179256756295
+    },
+    {
+      "better_config": "with_users",
+      "worse_config": "with_artists",
+      "improvement_percent": 26.715638092256714,
+      "p_value": 1.872290246896769e-08,
+      "effect_size": 13.962177972265229
+    },
+    {
+      "better_config": "with_artists",
+      "worse_config": "full_graph",
+      "improvement_percent": 18.563027559856234,
+      "p_value": 2.5018436207808843e-08,
+      "effect_size": 13.457872145134004
+    },
+    {
+      "better_config": "playlist_features",
+      "worse_config": "with_artists",
+      "improvement_percent": 33.714455375508415,
+      "p_value": 2.6372942601735194e-09,
+      "effect_size": 17.88927762372922
+    },
+    {
+      "better_config": "track_features",
+      "worse_config": "with_artists",
+      "improvement_percent": 9.904739572266973,
+      "p_value": 1.741330031967135e-05,
+      "effect_size": 5.740445593024892
+    },
+    {
+      "better_config": "user_features",
+      "worse_config": "with_artists",
+      "improvement_percent": 29.63077822354881,
+      "p_value": 2.4442072169402283e-08,
+      "effect_size": 13.497759827903772
+    },
+    {
+      "better_config": "all_features",
+      "worse_config": "with_artists",
+      "improvement_percent": 5.562195637010817,
+      "p_value": 0.0004053142529523902,
+      "effect_size": 3.6680350644289152
+    },
+    {
+      "better_config": "with_users",
+      "worse_config": "full_graph",
+      "improvement_percent": 50.23789691397001,
+      "p_value": 7.446322673973087e-10,
+      "effect_size": 20.97845760153653
+    },
+    {
+      "better_config": "playlist_features",
+      "worse_config": "with_users",
+      "improvement_percent": 5.523246687323737,
+      "p_value": 0.002236653225393197,
+      "effect_size": 2.793294929492403
+    },
+    {
+      "better_config": "with_users",
+      "worse_config": "track_features",
+      "improvement_percent": 15.295881310865461,
+      "p_value": 3.7960063568375766e-06,
+      "effect_size": 7.039307537250086
+    },
+    {
+      "better_config": "with_users",
+      "worse_config": "all_features",
+      "improvement_percent": 20.038842814509778,
+      "p_value": 4.0173358236316734e-07,
+      "effect_size": 9.43598881298583
+    },
+    {
+      "better_config": "playlist_features",
+      "worse_config": "full_graph",
+      "improvement_percent": 58.535906578375716,
+      "p_value": 1.980533094849826e-10,
+      "effect_size": 24.778126871567398
+    },
+    {
+      "better_config": "track_features",
+      "worse_config": "full_graph",
+      "improvement_percent": 30.306386668655115,
+      "p_value": 1.970616987654478e-08,
+      "effect_size": 13.871814649209949
+    },
+    {
+      "better_config": "user_features",
+      "worse_config": "full_graph",
+      "improvement_percent": 53.69417531124229,
+      "p_value": 1.1841023702286824e-09,
+      "effect_size": 19.78873132733563
+    },
+    {
+      "better_config": "all_features",
+      "worse_config": "full_graph",
+      "improvement_percent": 25.157735105898492,
+      "p_value": 3.553534858639943e-08,
+      "effect_size": 12.870931850824391
+    },
+    {
+      "better_config": "playlist_features",
+      "worse_config": "track_features",
+      "improvement_percent": 21.663957255988546,
+      "p_value": 2.430197003371691e-07,
+      "effect_size": 10.066999097585763
+    },
+    {
+      "better_config": "playlist_features",
+      "worse_config": "user_features",
+      "improvement_percent": 3.150237318576681,
+      "p_value": 0.045396906061297704,
+      "effect_size": 1.4975742102934286
+    },
+    {
+      "better_config": "playlist_features",
+      "worse_config": "all_features",
+      "improvement_percent": 26.66888422376394,
+      "p_value": 3.954788738307053e-08,
+      "effect_size": 12.696966195675092
+    },
+    {
+      "better_config": "user_features",
+      "worse_config": "track_features",
+      "improvement_percent": 17.94830571279516,
+      "p_value": 2.2743437751101004e-06,
+      "effect_size": 7.5308341284239315
+    },
+    {
+      "better_config": "track_features",
+      "worse_config": "all_features",
+      "improvement_percent": 4.113730212839217,
+      "p_value": 0.010935256654505959,
+      "effect_size": 2.084129662751099
+    },
+    {
+      "better_config": "user_features",
+      "worse_config": "all_features",
+      "improvement_percent": 22.80038080043438,
+      "p_value": 3.297995484449704e-07,
+      "effect_size": 9.679105781404822
+    }
+  ],
+  "feature_importance_analysis": {
+    "baseline_performance": {
+      "ndcg_mean": 0.5229015620920618,
+      "ndcg_std": 0.01057633134421436
+    },
+    "individual_feature_impacts": {
+      "playlist_features": {
+        "description": "Playlist Features (6D)",
+        "ndcg_mean": 0.5374642056603425,
+        "ndcg_std": 0.009982992330431317,
+        "improvement_percent": 2.784968457546267,
+        "p_value": 0.055513550402744735,
+        "significance": "n.s."
+      },
+      "track_features": {
+        "description": "Track Features (4D)",
+        "ndcg_mean": 0.4417612395505797,
+        "ndcg_std": 0.009005047138744445,
+        "improvement_percent": -15.517322651867808,
+        "p_value": 1.1208494344376188e-06,
+        "significance": "***"
+      },
+      "user_features": {
+        "description": "User Features (4D)",
+        "ndcg_mean": 0.5210498973457511,
+        "ndcg_std": 0.011857877727382194,
+        "improvement_percent": -0.354113447070695,
+        "p_value": 0.8009969280008128,
+        "significance": "n.s."
+      }
+    },
+    "combined_feature_effect": {
+      "ndcg_mean": 0.42430641822888226,
+      "ndcg_std": 0.0076937740919801895,
+      "improvement_percent": -18.855392871406444
+    },
+    "feature_ranking": [
+      {
+        "rank": 1,
+        "feature_type": "Playlist",
+        "config_name": "playlist_features",
+        "improvement_percent": 2.784968457546267
+      },
+      {
+        "rank": 2,
+        "feature_type": "User",
+        "config_name": "user_features",
+        "improvement_percent": -0.354113447070695
+      },
+      {
+        "rank": 3,
+        "feature_type": "Track",
+        "config_name": "track_features",
+        "improvement_percent": -15.517322651867808
+      }
+    ],
+    "synergy_analysis": {
+      "expected_additive_improvement": -13.086467641392236,
+      "actual_combined_improvement": -18.855392871406444,
+      "synergy_effect": -5.768925230014208,
+      "interpretation": "strong_negative"
+    },
+    "recommendations": {}
+  },
+  "graph_structure_analysis": {
+    "configurations": {
+      "baseline": {
+        "ndcg_mean": 0.5229015620920618,
+        "ndcg_std": 0.01057633134421436,
+        "description": "Playlist-track edges only"
+      },
+      "with_artists": {
+        "ndcg_mean": 0.40194921644858017,
+        "ndcg_std": 0.003886823907697072,
+        "description": "Add track-artist relationships"
+      },
+      "with_users": {
+        "ndcg_mean": 0.5093325144296444,
+        "ndcg_std": 0.010158541941434092,
+        "description": "Add user-playlist relationships"
+      },
+      "full_graph": {
+        "ndcg_mean": 0.33901733510107707,
+        "ndcg_std": 0.0053503777851816575,
+        "description": "All edge types"
+      }
+    },
+    "best_structure": {
+      "config_name": "baseline",
+      "ndcg_mean": 0.5229015620920618,
+      "improvement_over_baseline": 0.0
+    },
+    "structure_ranking": [
+      {
+        "rank": 1,
+        "config_name": "baseline",
+        "ndcg_mean": 0.5229015620920618,
+        "improvement_over_baseline": 0.0
+      },
+      {
+        "rank": 2,
+        "config_name": "with_users",
+        "ndcg_mean": 0.5093325144296444,
+        "improvement_over_baseline": -2.594952596456088
+      },
+      {
+        "rank": 3,
+        "config_name": "with_artists",
+        "ndcg_mean": 0.40194921644858017,
+        "improvement_over_baseline": -23.130997191816927
+      },
+      {
+        "rank": 4,
+        "config_name": "full_graph",
+        "ndcg_mean": 0.33901733510107707,
+        "improvement_over_baseline": -35.166126919814054
+      }
+    ]
+  }
+}
